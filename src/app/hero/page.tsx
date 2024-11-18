@@ -14,10 +14,10 @@ import Link from "next/link";
           
           <h1 className="title-font text-5xl mb-5 text-pink-600 font-serif font-bold ml-5 hover:uppercase hover:text-white">
             <div>
-              <h1 className="flex justify-center items-center">Hello,</h1>
+              <h1 className="flex justify-center items-center">HELLO,</h1>
               <Typewriter
                 options={{
-                  strings: [' I am Adnan Masih...'],
+                  strings: [' I AM ADNAN MASIH '],
                   autoStart: true,
                   loop: true,
                 }}
@@ -48,13 +48,17 @@ import Link from "next/link";
         </div>
         
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/5" data-aos="flip-down" data-aos-duration="2000">
-    <div className="mockup-phone ">
-  <div className="camera"></div>
-  <div className="display">
-    <div className="artboard artboard-demo phone-1 hover:scale-150 duration-700 "><Image src={me} alt="me"/></div>
+  <div className="flex items-center justify-center">
+    <div className="relative rounded-full border-8 border-pink-600 shadow-xl w-[30rem] h-[30rem] flex items-center justify-center overflow-hidden">
+      <Image 
+        src={me} 
+        alt="me" 
+        className="absolute rounded-full w-full h-full object-cover transition-transform duration-700 hover:scale-150"
+      />
+    </div>
   </div>
 </div>
-    </div>
+
   </div>
 </section>
 
